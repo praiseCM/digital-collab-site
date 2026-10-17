@@ -1,0 +1,10 @@
+{
+    "name":  "digital-collab-site",
+    "version":  "1.0.0",
+    "private":  true,
+    "description":  "Interactive research website for digital collaboration in construction project management",
+    "scripts":  {
+                    "check":  "node --check dist/app.js \u0026\u0026 node --check dist/research-landscape.js \u0026\u0026 node --check dist/hero-visualization.js \u0026\u0026 node verify.mjs",
+                    "preview":  "node server.mjs"
+                }
+}

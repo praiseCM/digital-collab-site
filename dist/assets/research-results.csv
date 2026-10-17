@@ -1,0 +1,12 @@
+analysis,measure,estimate,lower_95_CI,upper_95_CI,notes
+Hierarchical regression,TPB baseline R-squared,0.455,,,Manuscript Table 5
+Hierarchical regression,TPB plus SNS R-squared,0.623,,,Manuscript Table 5
+Hierarchical regression,TPB plus SNS plus experience R-squared,0.632,,,Manuscript Table 5
+Focused mediation SEM,SNS to PBC standardized path,0.717,,,p < 0.001; Table 6
+Focused mediation SEM,PBC to DCF standardized path,0.224,,,p = 0.002; Table 6
+Focused mediation SEM,SNS to DCF standardized direct path,0.655,,,p < 0.001; Table 6
+Composite bootstrap,Indirect effect,0.182,0.086,0.301,20000 resamples; different scale from latent SEM paths
+Composite bootstrap,Direct effect,0.642,0.479,0.785,Manuscript Table 6
+Composite bootstrap,Total effect,0.824,0.714,0.915,Manuscript Table 6
+Composite bootstrap,Proportion mediated,0.221,,,22.1 percent; Table 6
+Study,Valid respondents,210,,,Cross-sectional self-report survey

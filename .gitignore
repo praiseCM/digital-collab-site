@@ -1,0 +1,46 @@
+# Explicit public file set at the repository root.
+/*
+!/.gitignore
+!/README.md
+!/package.json
+!/server.mjs
+!/verify.mjs
+!/dist/
+
+# Local hosting, research preparation, and development files.
+/.openai/
+/.research-cache/
+/research/
+/tools/
+/normalize.mjs
+/qa/
+/References/
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Archives, notebooks, manuscripts, and original bibliography exports.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.ipynb
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+scopus_export*
+
+# Credentials and local editor state.
+*.pem
+*.key
+*.pfx
+*.p12
+*.credentials
+/.vscode/
+/.idea/

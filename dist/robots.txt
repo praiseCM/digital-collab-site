@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://digital-collab.drlong.us/sitemap.xml
