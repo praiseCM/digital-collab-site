@@ -7,6 +7,13 @@
 !/verify.mjs
 !/dist/
 
+# Public Pages deployment workflow only.
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/pages.yml
+
 # Local hosting, research preparation, and development files.
 /.openai/
 /.research-cache/
